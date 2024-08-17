@@ -3,8 +3,8 @@ POST http://localhost:5000/users
 Content-Type: application/json
 
 {
-    "name": "Javis Benavente",
-    "email": "benavente@gmail.com",
+    "name": "samantha",
+    "email": "samantha@gmail.com",
     "password": "123456",
     "confPassword": "123456",
     "role": "vendedor"
@@ -152,3 +152,17 @@ Content-Type: application/json
 
 ### Eliminar una unidad de negocio por ID
 DELETE http://localhost:5000/business-units/e4a4dbe5-dddd-428e-9ca7-af3c902faee8
+
+
+###
+POST http://localhost:5000/events
+Content-Type: application/json
+
+{
+  "description": "Visitar cliente en la mañana",
+  "date": "2024-08-12",
+  "timeOfDay": "Mañana"
+}
+
+###
+GET http://localhost:5000/events

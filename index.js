@@ -11,6 +11,7 @@ import ClientRoute from "./routes/ClientRoute.js";
 import CompanyRoute from "./routes/CompanyRoute.js";
 import BusinessUnitRoute from "./routes/BusinessUnitRoute.js";
 import TrafficLightRoute from "./routes/TrafficLightRoute.js"; 
+import EventRoute from "./routes/EventRoute.js"
 
 dotenv.config();
 
@@ -49,7 +50,8 @@ app.use(ClientRoute)
 app.use(AuthRoute);
 app.use(CompanyRoute);
 app.use(BusinessUnitRoute);
-app.use(TrafficLightRoute)
+app.use(TrafficLightRoute);
+app.use(EventRoute);
 
   store.sync();
 
