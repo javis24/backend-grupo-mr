@@ -41,8 +41,9 @@ app.use(session({
 
 app.use(cors({
     credentials: true,
-    origin: 'http://localhost:3000'
+    origin: 'https://backend-grupo-mr-production-2c03.up.railway.app'
 }));
+
 app.use(express.json());
 app.use(UserRoute);
 app.use(ProductRoute);
