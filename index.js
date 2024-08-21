@@ -56,6 +56,6 @@ app.use(EventRoute);
 
   store.sync();
 
-  app.listen(process.env.PORT || 5000, () => {
-    console.log(`Servidor corriendo en el puerto ${process.env.PORT || 5000}...`);
+  app.listen(process.env.PORT || 3306, () => {
+    console.log(`Servidor corriendo en el puerto ${process.env.PORT || 3306}...`);
 });
