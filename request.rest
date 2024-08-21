@@ -3,11 +3,11 @@ POST https://backend-grupo-mr-production-2c03.up.railway.app/users
 Content-Type: application/json
 
 {
-    "name": "samantha",
-    "email": "samantha@gmail.com",
+    "name": "luis Mtz",
+    "email": "luis@gmail.com",
     "password": "123456",
     "confPassword": "123456",
-    "role": "vendedor"
+    "role": "admin"
 }
 
 ###
@@ -42,7 +42,7 @@ POST https://backend-grupo-mr-production-2c03.up.railway.app/login
 Content-Type: application/json
 
 {
-    "email": "javier@gmail.com",
+    "email": "luis@gmail.com",
     "password": "123456"
 }
 
