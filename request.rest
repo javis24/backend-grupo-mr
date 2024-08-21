@@ -48,7 +48,7 @@ Content-Type: application/json
 
 ###
 //Data User
-GET  http://localhost:5000/me
+GET  https://backend-grupo-mr-production-2c03.up.railway.app/me
 
 ###
 //cerrar sesion
