@@ -1,5 +1,5 @@
 //Create User
-POST http://localhost:5000/users
+POST https://backend-grupo-mr-production-2c03.up.railway.app/users
 Content-Type: application/json
 
 {
