@@ -33,14 +33,16 @@ app.use(session({
     saveUninitialized: true,
     store: store,
     cookie: {
-        secure: 'auto'
+        secure: 'auto',  
+        maxAge: 1000 * 60 * 60 * 24 
     }
 }));
 
-// Ajuste de CORS
+
+
 app.use(cors({
     credentials: true,
-    origin: 'https://grupomrlaguna.com' 
+    origin: 'https://grupomrlaguna.com'
 }));
 
 app.use(express.json());
