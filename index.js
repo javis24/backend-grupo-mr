@@ -40,7 +40,7 @@ app.use(session({
 // Ajuste de CORS
 app.use(cors({
     credentials: true,
-    origin: 'https://grupomrlaguna.com/' 
+    origin: 'https://grupomrlaguna.com' 
 }));
 
 app.use(express.json());
