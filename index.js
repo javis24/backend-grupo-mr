@@ -42,9 +42,8 @@ app.use(session({
 
 app.use(cors({
     credentials: true,
-    origin: ['https://grupomrlaguna.com/', 'http://localhost:3000'] 
+    origin: 'https://grupomrlaguna.com/'
 }));
-
 
 app.use(express.json());
 app.use(UserRoute);
