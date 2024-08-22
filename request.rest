@@ -12,15 +12,15 @@ Content-Type: application/json
 
 ###
 //Get All User
-Get http://localhost:5000/users
+Get https://backend-grupo-mr-production-2c03.up.railway.app/users
 
 ###
 //Get Single User
-Get http://localhost:5000/users/556ccfb9-5629-4c57-b565-1e350cfe20e8
+Get https://backend-grupo-mr-production-2c03.up.railway.app/users/556ccfb9-5629-4c57-b565-1e350cfe20e8
 
 ###
 //Actualizar User
-PATCH  http://localhost:5000/users/556ccfb9-5629-4c57-b565-1e350cfe20e8
+PATCH  https://backend-grupo-mr-production-2c03.up.railway.app/users/556ccfb9-5629-4c57-b565-1e350cfe20e8
 Content-Type: application/json
 
 {
@@ -33,7 +33,7 @@ Content-Type: application/json
 
 ###
 //Deleted User
-DELETE http://localhost:5000/users/556ccfb9-5629-4c57-b565-1e350cfe20e8
+DELETE https://backend-grupo-mr-production-2c03.up.railway.app/users/556ccfb9-5629-4c57-b565-1e350cfe20e8
 
 
 ###
@@ -52,21 +52,21 @@ GET  https://backend-grupo-mr-production-2c03.up.railway.app/me
 
 ###
 //cerrar sesion
-DELETE  http://localhost:5000/logout
+DELETE  https://backend-grupo-mr-production-2c03.up.railway.app/logout
 
 ###
 //Get All Products
-GET http://localhost:5000/products
+GET https://backend-grupo-mr-production-2c03.up.railway.app/products
 
 
 ###
 //Get Single Products
-GET http://localhost:5000/products/7cc6a52d-1f72-4c92-9183-07c975f586a0
+GET https://backend-grupo-mr-production-2c03.up.railway.app/products/7cc6a52d-1f72-4c92-9183-07c975f586a0
 
 
 ###
 //Create Products
-POST http://localhost:5000/products
+POST https://backend-grupo-mr-production-2c03.up.railway.app/products
 Content-Type: application/json
 
 {
@@ -78,22 +78,22 @@ Content-Type: application/json
 
 ###
 // Obtener todos los clientes
-GET http://localhost:5000/clients
+GET https://backend-grupo-mr-production-2c03.up.railway.app/clients
 
 
 ###
 // Obtener un cliente por ID
-GET http://localhost:5000/clients/
+GET https://backend-grupo-mr-production-2c03.up.railway.app/clients/
 
 
 ###
 // Eliminar un cliente
-DELETE http://localhost:5000/clients/
+DELETE https://backend-grupo-mr-production-2c03.up.railway.app/clients/
 
 
 ###
 // Crear un nuevo cliente
-POST http://localhost:5000/clients
+POST https://backend-grupo-mr-production-2c03.up.railway.app/clients
 Content-Type: application/json
 
 {
@@ -105,21 +105,21 @@ Content-Type: application/json
 
 
 ### Obtener todas las empresas
-GET http://localhost:5000/companies
+GET https://backend-grupo-mr-production-2c03.up.railway.app/companies
 
 
 ### Obtener una empresa por ID
-GET http://localhost:5000/companies
+GET https://backend-grupo-mr-production-2c03.up.railway.app/companies
 
 ### Actualizar una empresa por ID
-PUT http://localhost:5000/companies/
+PUT https://backend-grupo-mr-production-2c03.up.railway.app/companies/
 
 
 ### Eliminar una empresa por ID
-DELETE http://localhost:5000/companies/
+DELETE https://backend-grupo-mr-production-2c03.up.railway.app/companies/
 
 ### Crear una nueva empresa
-POST http://localhost:5000/companies
+POST https://backend-grupo-mr-production-2c03.up.railway.app/companies
 Content-Type: application/json
 
 {
@@ -134,12 +134,12 @@ Content-Type: application/json
 
 
 ### Obtener todas las unidades de negocio
-GET http://localhost:5000/business-units
+GET https://backend-grupo-mr-production-2c03.up.railway.app/business-units
 
 
 
 ### Crear una nueva unidad de negocio
-POST http://localhost:5000/business-units
+POST https://backend-grupo-mr-production-2c03.up.railway.app/business-units
 Content-Type: application/json
 
 {
@@ -150,11 +150,11 @@ Content-Type: application/json
 
 
 ### Eliminar una unidad de negocio por ID
-DELETE http://localhost:5000/business-units/e4a4dbe5-dddd-428e-9ca7-af3c902faee8
+DELETE https://backend-grupo-mr-production-2c03.up.railway.app/business-units/e4a4dbe5-dddd-428e-9ca7-af3c902faee8
 
 
 ###
-POST http://localhost:5000/events
+POST https://backend-grupo-mr-production-2c03.up.railway.app/events
 Content-Type: application/json
 
 {
@@ -164,4 +164,4 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:5000/events
+GET https://backend-grupo-mr-production-2c03.up.railway.app/events
