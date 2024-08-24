@@ -40,27 +40,12 @@ app.use(session({
 
 app.use(cors({
     credentials: true,
-    origin: function (origin, callback) {
-        if (origin === 'https://grupomrlaguna.com' || origin === 'https://grupomrlaguna.com/') {
-            callback(null, true);
-        } else {
-            callback(new Error('Not allowed by CORS'));
-        }
-    }
+    origin: 'https://grupomrlaguna.com'
 }));
 
 
 app.use(express.json());
 
-// Middleware para eliminar la barra inclinada al final de las URLs
-app.use((req, res, next) => {
-    if (req.path !== '/' && req.path.endsWith('/')) {
-        const newPath = req.path.slice(0, -1);
-        res.redirect(301, newPath + (req._parsedUrl.search || ''));
-    } else {
-        next();
-    }
-});
 
 // Rutas
 app.use(UserRoute);
