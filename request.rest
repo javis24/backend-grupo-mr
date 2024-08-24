@@ -165,3 +165,7 @@ Content-Type: application/json
 
 ###
 GET https://backend-grupo-mr-production-2c03.up.railway.app/events
+
+
+###
+GET https://grupomrlaguna.com

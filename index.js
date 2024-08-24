@@ -40,8 +40,15 @@ app.use(session({
 
 app.use(cors({
     credentials: true,
-    origin: 'https://grupomrlaguna.com/', 
+    origin: function (origin, callback) {
+        if (origin === 'https://grupomrlaguna.com' || origin === 'https://grupomrlaguna.com/') {
+            callback(null, true);
+        } else {
+            callback(new Error('Not allowed by CORS'));
+        }
+    }
 }));
+
 
 app.use(express.json());
 
