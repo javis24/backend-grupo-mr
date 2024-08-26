@@ -40,7 +40,7 @@ app.use(session({
 
 app.use(cors({
     credentials: true,
-    origin: 'https://api.grupomrlaguna.com/'
+    origin: 'https://grupomrlaguna.com/'
 }));
 
 
